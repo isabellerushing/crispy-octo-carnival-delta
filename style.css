@@ -1,0 +1,284 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1595134666847-57279715680e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MTc4NDl8&ixlib=rb-4.0.3&q=85');
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+  color: white;
+}
+
+#factsbutton {
+  display: none;
+}
+
+#patronusbutton{
+  display: none;
+}
+
+#giraffe {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#cheetah {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#pig {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#eagle {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#flamingo {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#racoon {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#hedgehog {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#zebra {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#butterfly {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#bee {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#peacock {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#bear {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#elephant {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#cat {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#merecat {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#snake {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#parrot {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#sheep {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#fawn {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#wolf {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#owl {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#bird {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#toucan {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#dog {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#lion {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#jellyfish {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#panda {
+  display: none;
+  float: right;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
