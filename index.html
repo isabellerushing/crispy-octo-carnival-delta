@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Delta Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Want cool facts about your name? <h1>
+  
+  <h3> Please, tell us your name.<h3>
+    
+  <label for="name">Your name:</label>
+  <input type="text" id="name" name="name"><br>
+    <button id="gobutton" class="btn btn-secondary" type="button">Go</button><br>
+    
+    <p id="userGreeting"></p>
+    
+    <button id="factsbutton" class="btn btn-secondary" type="button">Get Cool Facts</button><br>
+    
+    <p id="coolFactOne"></p>
+    <p id="coolFactTwo"></p>
+    <p id="coolFactThree"></p>
+    <p id="coolFactFour"></p>
+    
+    <button id="patronusbutton" class="btn btn-secondary" type="button">See my Spirit Animal</button><br>
+    
+    <p id="Patronus"></p>
+    
+<!--   images below   -->
+    <img id="giraffe" src='https://images.unsplash.com/photo-1538127426967-75a6c73f6d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MTk4MDh8&ixlib=rb-4.0.3&q=80&w=400' alt='giraffe'>
+      
+    <img id='panda' src='https://images.unsplash.com/photo-1597953601374-1ff2d5640c85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='panda'>
+    
+    <img id='jellyfish' src='https://images.unsplash.com/photo-1520634996521-d0985c84316a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='jellyfish'>
+    
+    <img id='lion' src='https://images.unsplash.com/photo-1607274134639-043342705e6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='lion'>
+    
+    <img id='dog' src='https://images.unsplash.com/photo-1583511666372-62fc211f8377?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='dog'>
+    
+    <img id='toucan' src='https://images.unsplash.com/photo-1619038779484-a27362fb82cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='toucan'>
+    
+    <img id='bird' src='https://images.unsplash.com/photo-1535083783855-76ae62b2914e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='bird'>
+    
+    <img id='owl' src='https://images.unsplash.com/photo-1615752306634-0ba647760db5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='owl'>
+    
+    <img id='wolf' src='https://images.unsplash.com/photo-1590741276397-5cb81c3bf8de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='wolf'>
+    
+    <img id='fawn' src='https://images.unsplash.com/photo-1506099914961-765be7a97019?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='fawn'>
+    
+    <img id='sheep' src='https://images.unsplash.com/photo-1484557985045-edf25e08da73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='sheep'>
+    
+    <img id='parrot' src='https://images.unsplash.com/photo-1504579264001-833438f93df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjI4NTN8&ixlib=rb-4.0.3&q=80&w=400' alt='parrot'>
+    
+    <img id='snake' src='https://images.unsplash.com/photo-1474314170901-f351b68f544f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwMjV8&ixlib=rb-4.0.3&q=80&w=400' alt='snake'>
+    
+    <img id='merecat' src='https://images.unsplash.com/photo-1552071379-041b32707fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwMjV8&ixlib=rb-4.0.3&q=80&w=400' alt='merecat'>
+    
+    <img id='cat' src='https://images.unsplash.com/photo-1593096298921-b14f39368376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwMjV8&ixlib=rb-4.0.3&q=80&w=400' alt='black cat'>
+    
+    <img id='elephant' src='https://images.unsplash.com/photo-1603632076161-5836b146638c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwMjV8&ixlib=rb-4.0.3&q=80&w=400' alt='elephants'>
+    
+    <img id='bear' src='https://images.unsplash.com/photo-1589648751789-c8ecb7a88bd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwMjV8&ixlib=rb-4.0.3&q=80&w=400' alt='polar bear'>
+    
+    <img id='peacock' src='https://images.unsplash.com/photo-1542382787171-bd4e1019d68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwOTF8&ixlib=rb-4.0.3&q=80&w=400' alt='peacock'>
+    
+    <img id='bee' src='https://images.unsplash.com/photo-1553949815-6bbea89fb801?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwOTF8&ixlib=rb-4.0.3&q=80&w=400' alt='honey bee'>
+    
+    <img id='butterfly' src='https://images.unsplash.com/photo-1615871155271-64f7c939833b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwOTF8&ixlib=rb-4.0.3&q=80&w=400' alt='butterfly'>
+    
+    <img id='zebra' src='https://images.unsplash.com/photo-1578326457399-3b34dbbf23b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwOTF8&ixlib=rb-4.0.3&q=80&w=400' alt='zebra'>
+    
+    <img id='hedgehog' src='https://images.unsplash.com/photo-1622227056993-6e7f88420855?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMwOTF8&ixlib=rb-4.0.3&q=80&w=400' alt='hedgehog'>
+    
+    <img id='racoon' src='https://images.unsplash.com/photo-1497752531616-c3afd9760a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMxNjF8&ixlib=rb-4.0.3&q=80&w=400' alt='racoon'>
+    
+    <img id='flamingo' src='https://images.unsplash.com/photo-1535748715526-1941af3fc315?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMxNjF8&ixlib=rb-4.0.3&q=80&w=400' alt='flamingo'>
+    
+    <img id='eagle' src='https://images.unsplash.com/photo-1613318282885-2168d00a8d2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMxNjF8&ixlib=rb-4.0.3&q=80&w=400' alt='eagle'>
+    
+    <img id='pig' src='https://images.unsplash.com/photo-1541689221361-ad95003448dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMxNjF8&ixlib=rb-4.0.3&q=80&w=400' alt='pig'>
+    
+    <img id='cheetah' src='https://images.unsplash.com/photo-1570463662416-7d8e39fc67e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0MjMxNjF8&ixlib=rb-4.0.3&q=80&w=400' alt='cheetah'>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js'></script>
+<script  src="scripts/script.js"></script>
+
+</body>
+</html>
