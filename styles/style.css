@@ -6,8 +6,8 @@ body {
   color: white;
 }
 
-div {
-  font-color: orange;
+.coolFacts {
+  color: orange;
 }
 
 #factsbutton {
