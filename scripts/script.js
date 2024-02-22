@@ -40,7 +40,7 @@ $( document ).ready(function(){
   
   $("#patronusbutton").click(function(){
     //test the button
-    alert("Expecto Patronum");
+    //alert("Expecto Patronum");
     
     let userName = $("#name").val();
     let userNAME = userName.toUpperCase();
